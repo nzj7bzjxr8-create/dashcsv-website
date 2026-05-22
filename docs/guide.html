@@ -21,13 +21,13 @@
     <main class="container content">
         <h1>DashCSV User Guide</h1>
         <p><strong>Version:</strong> 4.0.0</p>
-        <p><strong>Platforms:</strong> macOS 15.6+, iPadOS 17.0+</p>
+        <p><strong>Platforms:</strong> macOS 15.6+</p>
 
         <section id="getting-started">
             <h2>Getting Started</h2>
             <p>DashCSV helps you manage and visualize your investment portfolio across multiple brokers.</p>
             <ol>
-                <li>Launch DashCSV from Applications (macOS) or App Store (iPad)</li>
+                <li>Launch DashCSV from Applications (macOS)</li>
                 <li>The app will guide you through initial setup</li>
                 <li>Import your first portfolio CSV file from your broker</li>
             </ol>
@@ -42,7 +42,7 @@
                 <li>Choose import type: Positions, Transactions, or Watchlist</li>
                 <li>Review the preview and click Import</li>
             </ol>
-            <p><strong>Supported Brokers:</strong> Fidelity, Schwab, E*TRADE, Interactive Brokers, and others (via CSV)</p>
+            <p><strong>Supported Brokers:</strong> Fidelity (verified), Schwab (verified), E*TRADE, Interactive Brokers, and others (via CSV)</p>
         </section>
 
         <section id="dashboard">
@@ -74,7 +74,7 @@
             <ul>
                 <li><strong>Alpha Vantage</strong> - https://www.alphavantage.co/ (free tier available)</li>
                 <li><strong>Tiingo</strong> - https://www.tiingo.com/ (free tier available)</li>
-                <li><strong>Massive</strong> - https://www.massive.com/ (subscription)</li>
+                <li><strong>Massive</strong> - https://www.massive.com/ (free tier available)</li>
                 <li><strong>FMP (Financial Modeling Prep)</strong> - https://financialmodelingprep.com/ (free tier available)</li>
             </ul>
             <p><strong>Steps:</strong></p>
@@ -85,7 +85,7 @@
                 <li>Enter your key for your chosen provider</li>
                 <li>DashCSV will fetch live quotes automatically</li>
             </ol>
-            <p><em>API keys are stored securely in macOS Keychain / iPadOS Secure Enclave and are never transmitted to us.</em></p>
+            <p><em>API keys are stored securely in macOS Keychain and are never transmitted to us.</em></p>
         </section>
 
         <section id="data-security">
@@ -114,18 +114,18 @@
             </div>
 
             <div class="faq-item">
-                <h3>Can I sync between Mac and iPad?</h3>
+                <h3>Can I sync between Mac and iPad (Note: DashCSV iPad app currently in development)?</h3>
                 <p>Yes. Enable iCloud sync in Settings on both devices to synchronize your portfolio data. This is optional and can be disabled anytime.</p>
             </div>
 
             <div class="faq-item">
                 <h3>What CSV format does DashCSV expect?</h3>
-                <p>DashCSV supports CSV files from major brokers (Fidelity, Schwab, etc.). You can also use a generic CSV format with columns: Symbol, Quantity, Price, Account.</p>
+                <p>DashCSV supports CSV files from major brokers (Fidelity, Schwab, etc.). You can also use a generic CSV format with columns: Symbol, Quantity, Price, Account. In Custom Mode use a generic CSV format with columns</p>
             </div>
 
             <div class="faq-item">
                 <h3>Can I delete individual positions?</h3>
-                <p>Yes. Select a position and click Delete, or use Settings → Data Management to bulk manage your data.</p>
+                <p>Yes. Select a position or data item and click Delete, or use Settings → Data Management to bulk manage your data.</p>
             </div>
 
             <div class="faq-item">
